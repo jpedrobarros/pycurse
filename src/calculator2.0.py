@@ -4,14 +4,13 @@ from rich import print
 from rich.progress import track
 from rich.panel import Panel
 
-
 console = Console(record=True)
 blue_console = Console(style="white on blue")
 
 # declarando todas as funções de calculo
 def add(x, y):
     return x + y
-
+    
 def subtract(x, y):
     return x - y
 

@@ -1,0 +1,4 @@
+perguntas: list = ['Drilhe?', 'Velocidade?', 'Chute?', 'Elasticidade?', 'Força?', 'Malandragem?']
+jogadores = [('CR7', 1), ('VINI', 2), ('RODRIGO', 3), ('MESSI?', 4), ('NEYMAR', 5), ('SAVINHO?', 6)]
+
+print(jogadores)
