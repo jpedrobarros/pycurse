@@ -36,7 +36,8 @@ def calculadora():
     
     # estrutura de repetição
     while True:
-        os.system('cls' if os.name == 'nt' else 'clear') 
+        os.system('cls' if os.name == 'nt' else 'clear')
+        os.system('figlet JOTA BRABO') 
         try:
             print("|--------------------------------------------------------|")
             print("[🎩]                    CALCULATOR                    [🎩]")

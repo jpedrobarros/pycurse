@@ -1,42 +1,47 @@
-# Pycurse Calculator
+# Calculadora do Brabo 🔥
 
-Welcome to the Pycurse Calculator! This project is a feature-rich calculator built using Python, designed to handle various arithmetic operations with ease and style.
+👋 Seja bem-vindo à **Calculadora do Brabo**, uma calculadora em Python turbinada com a biblioteca `rich` e `pyfiglet` para te levar a outro nível de experiência matemática! 🧮
 
-## Features
+## Recursos que te farão pirar 🤯
 
-- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division.
-- **User-Friendly Interface**: Clear and intuitive prompts for user input.
-- **Rich Text Formatting**: Enhanced terminal output using the `rich` library for a visually appealing experience.
+* **Operações básicas na velocidade da luz:** Adição, subtração, multiplicação e divisão? Aqui é moleza! ➕➖✖️➗
+* **Interface amigável de dar inveja:** Até sua avó consegue usar! 😁
+* **Visual estiloso com `rich`:** Prepare-se para cores vibrantes e formatação de texto de outro mundo. ✨
+* **Figlet animado:** Um show de animação com `pyfiglet` para te dar aquele gás! 🚀
 
-## Installation
+## Bora instalar essa belezinha? 🛠️
 
-To get started with the Pycurse Calculator, follow these steps:
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/yourusername/pycurse.git
+   cd pycurse/src
+   ```
+   ```bash
+   git config --global user.email "your-email@example.com"
+   git config --global user.name "Your Name"
+   ```
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/pycurse.git
-    cd pycurse/src
-    ```    git config --global user.email "your-email@example.com"
-    git config --global user.name "Your Name"
+2. **Crie um ambiente virtual (para não dar ruim):**
+   ```bash
+   python3 -m venv new_venv
+   ```
 
-2. **Create a virtual environment**:
-    ```sh
-    python3 -m venv new_venv
-    ```
+3. **Ative o ambiente virtual (tipo um portal para outra dimensão):**
+   ```bash
+   source new_venv/bin/activate
+   ```
 
-3. **Activate the virtual environment**:
-    ```sh
-    source new_venv/bin/activate
-    ```
+4. **Instale as dependências (a mágica acontece aqui):**
+   ```bash
+   pip install rich pyfiglet
+   ```
 
-4. **Install the required dependencies**:
-    ```sh
-    pip install rich
-    ```
+## Hora do show! 🎉
 
-## Usage
+Execute a calculadora no seu terminal:
 
-To run the calculator, execute the following command in your terminal:
-
-```sh
+```bash
 python3 calculator2.0.py
+```
+
+**Prepare-se para calcular com estilo!** 😎
