@@ -6,9 +6,8 @@ def obter_resposta(pergunta, idJogada1, idJogada2):
     """Obtém a resposta do usuário e valida a entrada."""
     while True:
         try:
-            print("|-------------------------------------------------------|")   
-            print("|-------------------------------------------------------|")   
-            resposta = int(input(f'{pergunta} RESPONDA DIGITANDO O NÚMERO: '))
+            print("|------------------------------------------|")
+            resposta = int(input(f'QUEM É MELHOR EM:   {pergunta}??'))
             if resposta in (idJogada1, idJogada2):
                 return resposta
             else:
@@ -33,9 +32,9 @@ def random_mode(jogadores):
     jogadores_list = list(jogadores.keys())
     jogadores_aleatorios = random.sample(jogadores_list, 2)
     for jogador in jogadores_aleatorios:
-        numero = jogadores[jogador]
-        print(f'JOGADOR: {jogador} - {numero}')
-
+        numero = jogadores[jogador] 
+        print(f"[🔥]{jogador} - {numero}[🔥]")
+        
 def jogar(jogadores, perguntas, idJogada1, idJogada2, ponto):
     """Executa uma rodada do jogo."""
     pontos_jogador_1 = 0
@@ -63,8 +62,6 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("|-------------------------------------------------------|")
 print("[🎩]                    FUTCOMPARE                   [🎩]")
 print("|-------------------------------------------------------|")
-print("[🔥]                 MODO ALEATÓRIO                  [🔥]")
-print("|-------------------------------------------------------|")   
 print("[🔥]                 MODO ALEATÓRIO                  [🔥]")
 print("|-------------------------------------------------------|")   
 
