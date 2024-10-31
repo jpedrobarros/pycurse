@@ -1,5 +1,6 @@
 import random
 import os
+from rich import print
 
 
 def obter_resposta(pergunta, idJogada1, idJogada2):
