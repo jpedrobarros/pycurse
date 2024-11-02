@@ -14,7 +14,7 @@ def add(x, y):
 def subtract(x, y):
     return x - y
 
-def multiply(x, y):
+def multiply(x, y): 
     return x * y
 
 def divide(x, y):
@@ -36,7 +36,7 @@ def calculadora():
     # estrutura de repetição
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
-        os.system('figlet JOTA BRABO') 
+        os.system('figlet MAIS BRABO') 
         try:
             print("|--------------------------------------------------------|")
             print("[🎩]                    CALCULATOR                    [🎩]")
